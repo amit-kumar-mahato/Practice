@@ -1,5 +1,4 @@
-
-.container-fluid{
+.container-fluid.nav-bar{
   top: 0;
   left: 0;
   position: fixed;
@@ -85,14 +84,9 @@
       border-radius: 5px;
   }
   /*------------*/
- 
-  .createNote-container {
-   margin-left: 30%;
-   margin-right: 30%;
-  }
+
   .noteComponent {
-    margin-top: 10px;
-    margin-bottom: 5px;
+    margin-top: 35%;
   }
   .inputbase {
     padding: 11px 13 7px;
@@ -108,6 +102,8 @@
   padding-left: 2.375rem;
   margin-top:1.5px;
   height:50px;
+  border-radius: 8px;
+  background-color: #f1f3f4;
 }
 
 .has-search .form-control-feedback {
@@ -119,12 +115,13 @@
   line-height: 2.1;
   text-align: center;
   pointer-events: none;
-  color: #aaa;
+  color:gray;
   font-size: 25px;
 }
 
-.row{
-  padding: 15px 0;
+.row.header{
+  padding: 5px 0;
+  border: 1px solid whitesmoke;
   /* background-color: violet; */
 }
 .form-control ::placeholder{

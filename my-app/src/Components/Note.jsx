@@ -5,7 +5,7 @@ class Note extends Component{
     render(){
         const {title,description} = this.props;
         return(
-            <Card style={{ width: '18rem' }}>
+            <Card className="my-2 mr-2" style={{width:'15rem'}}>
             <Card.Body>
               <Card.Title>{title}</Card.Title>
               <Card.Text>

@@ -12,7 +12,6 @@ import Newheader from './Components/Newheader';
 import CreateNote from './Components/CreateNote';
 import {Example} from './Components/CustomTogglerNote';
 import Reminder from './Components/Reminder';
-import NoteList from './Components/NoteList';
 
 class App extends Component {
   render() {
@@ -30,7 +29,6 @@ class App extends Component {
         <Route path="/createnote" exact component={CreateNote}></Route>
         <Route path ="/toggler" component={Example}></Route> 
         <Route path="/reminder" component={Reminder}></Route>
-        <Route path="/notelist" component={NoteList}></Route>
       </Router>
     );
   }
