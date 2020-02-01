@@ -4,7 +4,69 @@ import NoteController from "../Controller/NoteController";
 import { Card, Button, FormControl } from "react-bootstrap";
 
 class CreateNote extends Component {
-  
+  // constructor(props) {
+  //   super(props);
+  //   this.state = {
+  //     openNote: false,
+  //     title: "",
+  //     description: "",
+  //     createNote: false
+  //   };
+  // }
+
+  // handleClickOpen = () => {
+  //   this.setState({
+  //     openNote: true
+  //   });
+  // };
+  // handleClickClose = () => {
+  //   this.setState({
+  //     openNote: false
+  //   });
+  // };
+
+  // onChangeTitle = event => {
+  //   this.setState({
+  //     title: event.target.value
+  //   });
+  // };
+  // onChangeDescription = event => {
+  //   this.setState({
+  //     description: event.target.value
+  //   });
+  // };
+  // onClose = () => {
+  //   if (this.state.title === "" && this.state.description === "") {
+  //     this.setState({
+  //       openNote: false
+  //     });
+  //   } else {
+  //     var noteDetails = {
+  //       title: this.state.title,
+  //       description: this.state.description
+  //     };
+  //     console.log("in note create ", noteDetails);
+  //     this.setState({
+  //       openNote: false
+  //     });
+  //     NoteController
+  //       .createNote(noteDetails)
+  //       .then(response => {
+  //         console.log(response.data.obj);
+  //         console.log(response.data.obj.title);
+  //         this.setState({
+  //           title: "",
+  //           description: "",
+  //           createNote: true
+  //         });
+  //         this.props.response(this.state.createNote);
+  //       })
+  //       .catch(err => {
+  //         console.log("error", err.response.data);
+  //       });
+  //   }
+  // };
+
   render() {
     const {title,description,onChangeTitle,onChangeDescription,onClose,handleClickOpen,openNote} = this.props;
     return (

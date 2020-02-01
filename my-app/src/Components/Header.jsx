@@ -3,7 +3,7 @@ import "../App.css";
 class Header extends Component {
   render() {
     return (
-      <div className="container-fluid nav-bar">
+      <div>
         <div className="row header" style={{ display: "flex", alignItems: "center" }}>
           <div
             className="col-sm-3"
