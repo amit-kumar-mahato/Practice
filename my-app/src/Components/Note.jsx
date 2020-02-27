@@ -29,6 +29,12 @@ class Note extends Component{
               <Card.Link nk to="#">
                   <i className="fa fa-ellipsis-v" aria-hidden="true"></i>
               </Card.Link>
+<Card.Link nk to="#">
+                  <i className="fa fa-archive" title="Archive" aria-hidden="true"></i>
+              </Card.Link>
+              <Card.Link nk to="#">
+                  <i className="fa fa-ellipsis-v" aria-hidden="true"></i>
+              </Card.Link>
             </Card.Body>
           </Card> 
         );
